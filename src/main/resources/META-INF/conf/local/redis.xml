@@ -1,0 +1,10 @@
+<Config>
+	<redis>
+		<server>localhost</server>
+		<port>6379</port>
+		<maxActive>1000</maxActive>
+		<maxIdle>8</maxIdle>
+		<testOnBorrow>true</testOnBorrow>
+		<expires>86400</expires>
+	</redis>
+</Config>
